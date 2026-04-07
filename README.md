@@ -14,7 +14,7 @@ Timestamp-aware podcast Q&A companion built with Next.js 14, TypeScript, and Cla
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS + shadcn/ui
-- **AI:** OpenAI (embeddings), Anthropic Claude (answers)
+- **AI:** Voyage AI (embeddings), Anthropic Claude (answers)
 - **Testing:** Vitest + Testing Library
 
 ## Prerequisites
@@ -31,7 +31,7 @@ cp .env.example .env.local
 
 2. Add your API keys:
 ```
-OPENAI_API_KEY=your_openai_key
+VOYAGE_API_KEY=your_voyage_key
 ANTHROPIC_API_KEY=your_anthropic_key
 ```
 
